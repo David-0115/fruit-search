@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: rgb(240, 230, 10);
+  background: linear-gradient(90deg, rgba(240, 230, 10, 1) 0%, rgba(246, 80, 2, 1) 100%);
+}
+
+input {
+  background: orange;
+  height: 40px;
+
+}
+
+.search-container {
+  position: absolute;
+}
+
+.search-container input,
+.search-container .suggestions {
+  width: 250px;
+  padding: 0px, 0px, 0px, 0px;
+}
+
+.search-container input {
+  /* TODO */
+}
+
+.search-container .suggestions {
+  position: absolute;
+
+
+}
+
+ul {
+  position: relative;
+  top: -15px;
+  list-style-type: none;
+  padding: 0px;
+
+}
+
+
+ul li {
+  background: orange;
+  width: 100%;
+  padding: 5px;
+}
+
+ul li:hover {
+  background-color: rgba(246, 80, 2, 1);
+}
